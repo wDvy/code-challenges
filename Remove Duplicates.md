@@ -1,3 +1,4 @@
+# Remove Duplicates
 ```cpp
     int removeDuplicates(vector<int>& nums) {
         int j = 1;
