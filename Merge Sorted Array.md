@@ -49,8 +49,8 @@ This solution has a time complexity of O((M+N) log (M+N)) because of the sort fu
 
 1. First we initialize 3 variables: ```i``` Which we set equal to m-1 is the final index of significant values in the ```nums1``` array. ```j``` which we set equal to n-1 is the real final index of the ```nums2``` array. finally, ```k``` which we set equal to m+n-1 is the real final index of the ```nums1``` array.
 2. Next, we setup a while loop that continues until all numbers in ```nums2``` are merged into the ```nums1``` array. 
-3. Within the loop we check if we if we're on the final element and which if the two elements we're pointing to are bigger. If i is bigger, it goes to index k in nums1, then both elements decrement their indices.
-4. If i is smaller, then the j element is assigned to the index k and both elements decrement.
-5. This happens until we reach the last index of the smaller array, n.
+3. Within the loop we check if we if we're on the final element and which if the two elements we're pointing to are bigger. If ```i``` is bigger, it goes to index ```k``` in ```nums1```, then both elements decrement their indices.
+4. If ```i``` is smaller, then the ```j``` element is assigned to the index ```k``` and both elements decrement.
+5. This happens until we reach the last index of the smaller array, ```n```.
 
 This solution has a time complexity of O ( m + n ) because we are iterating through both arrays.
